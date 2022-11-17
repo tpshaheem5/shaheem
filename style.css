@@ -191,3 +191,31 @@ h1{
     border: none;
     transition: 0.5s;
 }
+
+.card{
+    border: none;
+    outline: none;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+}
+.card p{
+    color: gray;    
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(228,220,220);
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+
+}
