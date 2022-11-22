@@ -219,3 +219,26 @@ h1{
     transition: 0.5s;
 
 }
+.circle:hover{
+    background-color: black;
+    transition: 0.4s;
+    color: white;
+}
+.contact .btn3{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+}
+.btn3:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+footer{
+    background-color: rgb(59, 52, 52);
+    color: lightgray;
+}
